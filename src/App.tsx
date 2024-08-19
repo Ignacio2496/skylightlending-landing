@@ -6,6 +6,7 @@ import Portales  from "./components/Portales"
 import Information  from "./components/Information"
 import Nav from "./components/nav"
 import Head from "./components/head"
+import Footer from './components/footer';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Banner/>
       <Portales/>
       <Information/>
+      <Footer/>
     </>
   )
 }
