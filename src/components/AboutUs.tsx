@@ -7,7 +7,7 @@ function AboutUs() {
   return (
     <> 
     <div className='relative h-auto w-full  bg-background text-foreground'>
-      <div className='poligono w-full h-[100vh] bg-background absolute bottom-[100%]'></div>
+      <div className=' z-10 poligono w-full h-[100vh] bg-background absolute bottom-[100%]'></div>
       <div className="w-full bg-background h-screen grid grid-rows-2  md:grid-rows-none md:grid-cols-2 md:h-[70vh] ">
           <div className='h-auto w-full bg-background flex justify-center items-center flex-col p-10'>
             <h1  className='text-start text-xl w-full mb-2 sm:text-3xl lg:text-4xl '>Who are we?</h1> 
