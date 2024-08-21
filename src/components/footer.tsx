@@ -34,12 +34,12 @@ export default function Footer() {
         </div>
         <Acordion />
         <div className="flex flex-col items-center w-full h-full">
-        <h3 className="">Social Links</h3>
-        <div className="flex w-full h-16 justify-evenly lg:px-20">
-          <img className="max-w-10" src={faceImg} alt="face" />
-          <img className="max-w-10" src={instaImg} alt="insta" />
-          <img className="max-w-10" src={linkedinImg} alt="face" />
-        </div>
+          <h3 className="">Social Links</h3>
+          <div className="flex w-full h-16 justify-evenly lg:px-20">
+            <img className="max-w-10" src={faceImg} alt="face" />
+            <img className="max-w-10" src={instaImg} alt="insta" />
+            <img className="max-w-10" src={linkedinImg} alt="face" />
+          </div>
         </div>
 
         <hr className="w-full h-1 my-2 border-gray-500"></hr>
@@ -90,4 +90,3 @@ export default function Footer() {
     </footer>
   );
 }
-
