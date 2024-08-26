@@ -30,14 +30,14 @@ export default function Nav() {
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className="absolute md:hidden text-foreground"
+          className="absolute lg:hidden text-foreground"
         />
-        <NavbarBrand className="flex justify-center md:justify-start">
+        <NavbarBrand className="flex justify-center lg:justify-start">
           <AcmeLogo />
         </NavbarBrand>
       </NavbarContent>
 
-      <NavbarContent className="hidden md:flex gap-4 " justify="center">
+      <NavbarContent className="hidden lg:flex gap-4 " justify="center">
         <NavbarItem>
           <Link
             className="hover:bg-yellow-400 p-5 rounded-full"
@@ -51,7 +51,7 @@ export default function Nav() {
           <Link
             className="hover:bg-yellow-400 p-5 rounded-full"
             color="foreground"
-            href="#"
+            href="/Our Story"
           >
             Our Story
           </Link>
@@ -79,7 +79,7 @@ export default function Nav() {
           <Link
             className="hover:bg-yellow-400 p-5 rounded-full"
             color="foreground"
-            href="/Contactos"
+            href="/Contact US"
           >
             Contact Us
           </Link>
@@ -89,7 +89,7 @@ export default function Nav() {
       <NavbarMenu className="z-40">
         {menuItems.map((item, index) => (
           <NavbarMenuItem className="mt-20" key={`${item}-${index}`}>
-            <Link className="w-full" href="#" size="lg">
+            <Link className="w-full" href={"/"+item} size="lg">
               {item}
             </Link>
           </NavbarMenuItem>

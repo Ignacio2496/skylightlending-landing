@@ -11,7 +11,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        blueFooter: '#0f3788'
+        blueFooter: '#0f3788',
+        amarillo : '#c8a102'
       }
     },
   },
