@@ -9,7 +9,12 @@ module.exports = {
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        blueFooter: '#0f3788',
+        amarillo : '#c8a102'
+      }
+    },
   },
   darkMode: "class",
   plugins: [nextui()],
